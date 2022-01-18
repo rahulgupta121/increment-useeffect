@@ -32,12 +32,14 @@
   margin: 0px 0px 20px 0px;
   text-transform: uppercase;
 }
-#myDropdown{
+#myDropdown, #myDropdown2, #myDropdown3 {
   list-style: none;
   display: grid;
   display: none;
 }
-
+.btn-clickMe-div{
+  display: flex;
+}
 /* ## for multi dropdown */
 header{
   display: flex;
