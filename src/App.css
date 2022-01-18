@@ -19,7 +19,7 @@
   flex-direction: column;
   text-align: center;
   justify-content: flex-start;
-  padding: 220px 0px;
+  /* padding: 220px 0px; */
 }
 .btn-clickMe {
   border-radius: black;
@@ -31,4 +31,8 @@
 .headingDropme{
   margin: 0px 0px 20px 0px;
   text-transform: uppercase;
+}
+#myDropdown{
+  list-style: none;
+  display: grid;
 }
