@@ -35,4 +35,37 @@
 #myDropdown{
   list-style: none;
   display: grid;
+  display: none;
+}
+
+/* ## for multi dropdown */
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: chartreuse;
+}
+.navbar{
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+}
+.navbar .nav-item{
+  margin: 0 15px;
+}
+/* drop down */
+.dropdown{
+  cursor: pointer;
+  user-select: none;
+
+}
+.dropdown-menu{
+  display: none;
+  background-color: cornflowerblue;
+  position: absolute;
+  padding: .25rem;
+}
+.dropdown-menu li{
+  list-style-type: none;
+
 }
